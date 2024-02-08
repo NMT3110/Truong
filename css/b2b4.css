@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0
+}
+.contain{
+    background-color: rgb(50, 21, 78);
+    width:1250px;
+    height:400px;
+    margin-top:50px;
+    margin-left:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+}
+.header{
+    margin-left: 50px;
+    padding-top:10px;
+    color:white;
+      
+}
+.contain1{
+    height:350px;
+    width:250px;
+}
+.box1{
+    width:250px;
+    height:250px;
+    position:relative;
+    margin-left: 50px;
+    overflow:hidden;
+    border-radius: 4px;
+    top:20px;
+}
+.lop1{
+    width:250px;
+    height:250px;
+    transition:0.4s;
+}
+.box1:hover .lop1{
+   transform:scale(1.1);
+}
+.lop2{
+    width:250px;
+    height:250px;
+    background-color: black;
+    opacity:0;
+    position:absolute;
+    top:0; left:0;
+    transition:0.4s;
+}
+.box1:hover .lop2{
+    opacity:0.4;
+    transform:scale(1.2);
+}
+.lop3{
+    width:250px;
+    height:250px;
+    color:white;
+    font-size: 30px;
+    position:absolute;
+    opacity:0;
+    top:90px;
+    left:20px;
+    transition:0.4s;
+}
+.box1:hover .lop3{
+    opacity:1;
+}
+.icon{
+    padding: 15px 10px;
+    font-size: 30px;
+}
+.icon1{
+    padding: 0px 10px;
+    font-size:70px;
+}
+.lop4{
+    color:white;
+    width:250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.box2{
+    width:250px;
+    height:250px;
+    position:absolute;
+    margin-left: 350px;
+    overflow:hidden;
+    border-radius: 4px;
+    top:66px;
+}
+.lop5{
+    color:white;
+    width:250px;
+    margin-left: 350px;
+    line-height: 1.5;
+    margin-top:-48px;
+}
+.box2:hover .lop1{
+    transform:scale(1.1);
+ }
+ .box2:hover .lop2{
+    opacity:0.4;
+    transform:scale(1.2);
+}
+.box2:hover .lop3{
+    opacity:1;
+}
+
+.box3{
+    width:250px;
+    height:250px;
+    position:absolute;
+    margin-left: 650px;
+    overflow:hidden;
+    border-radius: 4px;
+    top:66px;
+}
+.box3:hover .lop1{
+    transform:scale(1.1);
+ }
+ .box3:hover .lop2{
+    opacity:0.4;
+    transform:scale(1.2);
+}
+.box3:hover .lop3{
+    opacity:1;
+}
+.lop6{
+    color:white;
+    width:250px;
+    margin-left: 650px;
+    line-height: 1.5;
+    margin-top:-48px;
+}
+
+.box4{
+    width:250px;
+    height:250px;
+    position:absolute;
+    margin-left: 950px;
+    overflow:hidden;
+    border-radius: 4px;
+    top:66px;
+}
+.box4:hover .lop1{
+    transform:scale(1.1);
+ }
+ .box4:hover .lop2{
+    opacity:0.4;
+    transform:scale(1.2);
+}
+.box4:hover .lop3{
+    opacity:1;
+}
+.lop7{
+    color:white;
+    width:250px;
+    margin-left: 950px;
+    line-height: 1.5;
+    margin-top:-48px;
+}

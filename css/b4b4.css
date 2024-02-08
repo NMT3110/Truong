@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+
+
+.menubar{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width:50px;
+    left: 200px;
+    position:fixed;
+    top:100px;
+    z-index: 1;
+}
+
+#menuicon{
+    width:50px;
+    right: 200px;
+    position:fixed;
+    top:100px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+.menu-box{
+    width:0;
+    height:0;
+    background:rgba(0,0,0,0.8);
+    position:fixed;
+    top:0;
+    right:0;
+    overflow:hidden;
+    border-bottom-left-radius: 100% ; 
+    transition:width 0.5s, height 0.5s, border-radius 0.5s;
+}
+
+.menu-box.open-menu{
+    width:100%;
+    height:100vh;
+    border-bottom-left-radius:0 ; 
+}
+.menu-box ul{
+    margin-top: 120px;
+}
+.menu-box li{
+    margin:20px;
+    opacity:0;
+    transform:translateY(-30px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box.open-menu li{
+    opacity:1;
+    transform:translateY(0px);
+    transition: transform 1s, opacity 1s;
+    transition-delay: 0.5s;
+}
+.menu-box li a{
+    display:inline-block;
+    color:white;
+    font-size: 40px;
+}
+
+a.menu1{
+    position:relative;
+}
+  a.menu1:after{
+      content:'';
+      position:absolute;
+      bottom:-5px;
+      left:0%;
+      width:0%;
+      height:1.5px;
+      background-color: white;
+      transition:0.4s;
+  }
+  a.menu1:hover:after{
+      width:100%;
+      left:0;
+  }
+  a.menu2{
+    position:relative;
+}
+  a.menu2:after{
+      content:'';
+      position:absolute;
+      bottom:-5px;
+      left:0%;
+      width:100%;
+      height:1.5px;
+      background-color: white;
+  }
+  a.menu3{
+    opacity:50%;
+  }
+.chu{
+    margin-top: 250px;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menucon{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.menucon ul{
+    display:flex;
+}
+.menucon ul li{
+    margin-right:20px;
+}
+.menucon ul li a{
+    color:grey;
+    font-size: 16px;
+}
+a.menu4{
+    position:relative;
+}
+  a.menu4:after{
+      content:'';
+      position:absolute;
+      bottom:-5px;
+      left:0%;
+      width:0%;
+      height:1.5px;
+      background-color: rgb(0, 0, 0);
+      transition:0.4s;
+  }
+  a.menu4:hover:after{
+      width:100%;
+      left:0;
+  }
+  a.menu5{
+    position:relative;
+}
+  a.menu5:after{
+      content:'';
+      position:absolute;
+      bottom:-5px;
+      left:0%;
+      width:100%;
+      height:1.5px;
+      background-color: rgb(0, 0, 0);
+  }
+
+  .baogom{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    overflow:hidden;
+  }
+.anh{
+    margin-top: 50px;
+}
+.image-block{
+    font-size: 13px;
+    position:relative;
+    width:360px;
+    height:260px;
+}
+.image-block .layer1{
+    width:100%;
+}
+.white{
+    background-color: white;
+    width: 320px;
+    height:200px;
+    left:20px;
+    top:20px;
+    position:absolute;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block:hover .white{opacity:0.8;}
+
+.image-block .blackicon{
+    font-size: 50px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block:hover .blackicon{opacity:1; transition-delay: 0.2s;} 
+
+.image-block .bigtext{
+    font-size: 24px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    font-weight: bold;
+    opacity:0;
+}
+.image-block:hover .bigtext{opacity:1; bottom:75px; transition-delay: 0.2s;}
+
+.image-block .smalltext{
+    font-size: 14px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    opacity:0;
+}
+.image-block:hover .smalltext{opacity:1; transition-delay: 0.5s;}
+a.menu3{
+    position:relative;
+    color:black;
+}
+  a.menu3:after{
+      content:'';
+      position:absolute;
+      bottom:-5px;
+      left:0%;
+      width:0%;
+      height:1.5px;
+      background-color: rgb(0, 0, 0);
+      transition:0.4s;
+  }
+  a.menu3:hover:after{
+      width:100%;
+      left:0;
+  }
+
+  
+.image-block2{
+    font-size: 13px;
+    position:relative;
+    width:360px;
+    height:380px;
+}
+.image-block2 .layer2{
+    width:100%;
+}
+.white2{
+    background-color: white;
+    width: 320px;
+    height:320px;
+    left:20px;
+    top:20px;
+    position:absolute;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block2:hover .white2{opacity:0.8;}
+
+.image-block2 .blackicon2{
+    font-size: 50px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block2:hover .blackicon2{opacity:1; transition-delay: 0.2s;} 
+
+.image-block2 .bigtext2{
+    font-size: 24px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    font-weight: bold;
+    opacity:0;
+}
+.image-block2:hover .bigtext2{opacity:1; bottom:75px; transition-delay: 0.2s;}
+
+.image-block2 .smalltext2{
+    font-size: 14px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    opacity:0;
+}
+.image-block2:hover .smalltext2{opacity:1; transition-delay: 0.5s;}
+
+  
+.image-block3{
+    font-size: 13px;
+    position:relative;
+    width:360px;
+    height:240px;
+}
+.image-block3 .layer3{
+    width:100%;
+}
+.white3{
+    background-color: white;
+    width: 320px;
+    height:180px;
+    left:20px;
+    top:20px;
+    position:absolute;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block3:hover .white3{opacity:0.8;}
+
+.image-block3 .blackicon3{
+    font-size: 50px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    transition:0.4s;
+    opacity:0;
+}
+.image-block3:hover .blackicon3{opacity:1; transition-delay: 0.2s;} 
+
+.image-block3 .bigtext3{
+    font-size: 24px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    font-weight: bold;
+    opacity:0;
+}
+.image-block3:hover .bigtext3{opacity:1; bottom:75px; transition-delay: 0.2s;}
+
+.image-block3 .smalltext3{
+    font-size: 14px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    transition:0.3s;
+    opacity:0;
+}
+.image-block3:hover .smalltext3{opacity:1; transition-delay: 0.5s;}

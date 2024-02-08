@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width:100%;
+    height:400px;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(anhbia.jpeg) center no-repeat;
+    background-size: cover;
+    position:relative;
+ 
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid white;
+    padding:50px;
+}
+
+.contain1 {
+    width:100%;
+    position:relative;
+    display:flex;
+    margin-top: 20px;
+  
+}
+
+.cbox1{
+    width:50%;
+    display:flex;
+    margin-top:10px;
+
+}
+.box1{
+    top:20px;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: rgb(210, 208, 208);
+}
+.chu{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+img{
+     border-radius: 8px;
+}
+.box2{
+    margin-left: 10px;
+}
+a{
+    width:40%;
+}
+.button{
+        background-color: #000000;
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px 2px;
+        border:2px solid black;
+}
+.button:hover{
+    background-color: white;
+    color:#000000;
+}   
+.cbox2{
+    width:50%;
+    display:flex;
+    margin-top:10px;
+    position:absolute;
+    margin-left: 54%;
+
+}
+.box3{
+    top:20px;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: rgb(210, 208, 208);
+}
+.box4{
+    margin-left: 10px;
+}
+.cbox3{
+    width:50%;
+    display:flex;
+    margin-top:10px;
+
+}
