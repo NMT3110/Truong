@@ -1,0 +1,144 @@
+@media screen and (max-width:768px){
+    .menu-links{
+        background: url(./Ảnh/menu.jpeg);
+    }
+    .menu-links a:hover{
+        color:#000000;
+     }
+     .mnl i:hover{
+        color:#000000;
+      }
+      a.abt1:hover{
+        color: #dcd6c8;
+        transition: background-color 0.8s;
+     }
+
+     #home {
+       margin-bottom: 0;
+       height:fit-content;
+     }
+     .btn-home {
+       flex-wrap: wrap;
+     }
+     .menunho li a {
+       font-size: 1rem;
+     }
+     .kn-chu {
+       font-size: 24px;
+     }
+     .logo {
+       font-size: 1.5rem;
+     }
+     .menunho {
+       flex-direction: column;
+       gap: 0.5rem;
+       text-align: center;
+     }
+     .anhchua {
+       height: 280px;
+       justify-content: center;
+     }
+     .section__chu__p2 {
+       font-size: 1.25rem;
+     }
+     .tieude {
+       font-size: 2rem;
+     }
+     .chu-gt {
+       text-align: justify;
+     }
+     .gt-chua{
+        display:block;
+        margin-top: 30px;
+        margin-bottom: 0;
+     }
+
+     .kn-gd{
+        margin-bottom:2rem;
+     }
+  }
+ 
+@media screen and (max-width:1060px){
+    .menu{
+        display:none;
+    }
+    .menu-icon{
+        display:none;
+    }
+    #hamburger-nav{
+        display:flex;
+        position:fixed;
+        width:100%;
+        justify-content: space-around;
+        align-items: center;
+        height:10vh;
+        background: #dcd6c8 url(./Ảnh/menu.jpeg);
+        z-index: 4;
+    }
+    #home{
+        display:block;
+    }
+    .canhan{
+        margin: 2rem auto 2rem;
+    }
+    .sothich{
+        flex-wrap: wrap;
+    }
+    .khung-chua{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .the{
+        flex-direction: column;
+    }
+    .the-anh{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .the-chu{
+        width: 100%;
+        min-height: auto;
+        margin-left: 0;
+    }
+    .kn-chu {
+      font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width:1248px){
+
+    .menuicon{
+        display:none;
+    }
+    .logo{
+        margin-right: 90px;
+    }
+    .section-container {
+      display: block;
+      margin-top: 20px;
+    }
+    .muiten {
+      display: none;
+    } 
+    .section-container{
+        margin:20px 5% ;
+    }
+    #home,.btchua {
+        margin:0 5% ;
+    }
+    .anhgt{
+        margin: 0 auto 2rem;
+    }
+
+      #home {
+        margin-bottom: 2rem;
+      }
+      .bottom{
+        margin-top: 0;
+      }
+      .kn-baogom{
+        margin:0 5% 2rem;
+      }
+}
+
