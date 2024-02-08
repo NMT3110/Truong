@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>tìm dòng nội dung bằng class</h2>
+    <p>Chao xìn</p>
+    <div class="intro">DOM khó quớ</div>
+    <div class="intro">dòng này là dòng cầm tìm không?</div>
+    <p id="demo"></p>
+    <script>
+        var x=document.getElementsByClassName("intro");
+        document.getElementById('demo').innerHTML='đây là nôi dung mang class=intro đầu tiên :'+ x[0].innerHTML;
+    </script>
+</body>
+</html>

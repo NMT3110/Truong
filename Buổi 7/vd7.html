@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cha">
+        <div id="p1">đoạn văn đầu tiên</div>
+        <div id="p2">đoạn văn thứ 2</div>
+    </div>
+    <button onclick="thaynode();">thay nội dung</button>
+    <script>
+        function thaynode(){
+            var x=document.createElement('div');
+            x.className='p3';
+            x.innerText='nội dung mới';
+            var y=document.getElementById('cha');
+            var z=document.getElementById('p2');
+            y.replaceChild(x,z);
+        }
+    </script>
+</body>
+</html>

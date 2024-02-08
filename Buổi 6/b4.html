@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4 Buổi 6</title>
+    <script type="text/javascript" src="b4.js"></script>
+    <link rel="stylesheet" href="b4.css">
+</head>
+<body>
+    <h1>Form đăng ký</h1>
+    <form action="" onsubmit=" return validateForm()">
+        <p>Họ <input type="text" id="txt_ho" size="20" placeholder="Nhập họ" required ></p> 
+        <p>Tên <input type="text" name="txt_ten" size="20" placeholder="Nhập tên" required></p>
+        <p>Số điện thoại <input type="tel" name="txt_dienthoai" placeholder="Nhập số điện thoại" required></p>
+        <p>Giới tính <input type="radio" name="gioitinh" id="nam"> Nam <input type="radio" name="gioitinh" id="nu"> Nữ</p>
+        <p>Ngày sinh:
+        <select name="day">
+            <option value="ngay1">1</option>
+            <option value="ngay2">2</option>
+            <option value="ngay3">3</option>
+            <option value="ngay4">4</option>
+            <option value="ngay5">5</option>
+        </select>
+
+            <select name="month">
+                <option value="thang1">Tháng 1</option>
+                <option value="thang2">Tháng 2</option>
+                <option value="thang3">Tháng 3</option>
+                <option value="thang4">Tháng 4</option>
+                <option value="thang5">Tháng 5</option>
+            </select> 
+
+        <select name="year">
+            <option value="nam2002">Năm 2002</option>
+            <option value="nam2003">Năm 2003</option>
+            <option value="nam2004">Năm 2004</option>
+        </select>
+        </p>
+
+        <p>Sở thích
+            <input type="checkbox" name="xemphim"> Xem phim
+            <input type="checkbox" name="docsach"> Đọc sách
+            <input type="checkbox" name="nghenhac"> Nghe nhạc
+            <input type="checkbox" name="dabong"> Đá bóng
+        </p>
+        <p>Khác <input type="text" ></p>
+       
+    <colspan="2" align="center">
+        <input type="submit" name="ok" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+    </colspan>
+    </form>
+</body>
+</html>

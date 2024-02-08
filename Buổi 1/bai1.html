@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liệt kê các thẻ</title>
+</head>
+<body>
+      <h1>1.Thẻ heading</h1>
+      <p><b>Ý nghĩa thẻ:</b></p>
+      <p>Dùng là tiêu đề hoặc phụ đề muốn hiển thị trên trang web. Lưu ý chỉ sử dụng tiêu đề HTML cho các tiêu đề. Không sử dụng tiêu đề để làm cho văn bản LỚN hoặc in đậm.</p>
+      <p><b>Ví dụ:</b></p>
+      <h1>Tiêu đề mức 1</h1>
+      <h2>Tiêu đề mức 2</h2>
+      <h3>Tiêu đề mức 3</h3>
+      <h4>Tiêu đề mức 4</h4>
+      <h5>Tiêu đề mức 5</h5>
+      <h6>Tiêu đề mức 6</h6>
+      <br>
+      <h1>2.Cấu trúc trang web</h1>
+      <p><b>Ví dụ:</b></p>
+      <p><!DOCTYPEhtml>
+        <html>
+        <head>
+        <title>Tiêu đề</title>
+        </head>
+        <body>
+        <h1>Mở đầu</h1>
+        <p>Đoạn văn</p>
+        </body>
+        </html>
+      </p>
+      <br>
+      <h1>3.Thẻ p /p </h1>
+      <p><b>Ý nghĩa thẻ:</b></p>
+      <p>-Dùng mô tả đoạn văn bản trên trang web</p>
+      <p><b>Ví dụ:</b></p>
+      <p>Đây là đoạn văn bản.</p>
+      <br>
+      <h1>4.Thẻ liên kết</h1>
+      <p><b>Ý nghĩa thẻ:</b></p>
+      <p>Liên kết giúp người dùng di chuyển nhanh đến các trang web khác nhau.</p>
+      <p><b>Ví dụ:</b></p>
+      <a href="https://www.facebook.com/"></a>
+      <p><b>Để sử dụng hình ảnh làm liên kết, chỉ cần đặt thẻ <img> bên trong<a></a></b></p>
+      <a href="https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate">
+      <img src="https://api.toploigiai.vn/storage/uploads/loi-ich-cua-gg-dich-cach-dung-gg-dich-hieu-qua-nhat_1">
+      </a>
+      <br>
+      <h1>5.Hình ảnh</h1>
+      <p><b>Ý nghĩa thẻ:</b></p>
+      <p><img>Thẻ HTML được sử dụng để nhúng hình ảnh vào một trang web.</p>
+      <p>Cú pháp:</p>
+      <p><img src="https://img4.thuthuatphanmem.vn/uploads/2019/12/10/anh-nen-phong-canh-thien-nhien-cho-dien-thoai_120849510.jpg"></p>
+      <p>Có thể sử dụng style thuộc tính để chỉ định chiều rộng và chiều cao của hình ảnh.</p>
+      <p><b>Ví dụ:</b></p>
+      <img src="https://4.bp.blogspot.com/-aPP74Dv3HDY/UAlHLibo0fI/AAAAAAAAAXo/2TBGzerMBz0/s1600/149-472PERFECTO.jpg"alt="Girl in a jacket" style="width:500px;height:600px;"></imgsrc>
+      <p>Để trỏ đến một hình ảnh trên một máy chủ khác, bạn phải chỉ định một URL tuyệt đối (đầy đủ) trong src thuộc tính:</p>
+      <img src="https://www.w3schools.com/images/w3schools_green.jpg"alt="W3Schools.com"></imgsrc>
+      <br>
+      <h1>6.Bảng</h1>
+      <p><b>Ý nghĩa thẻ:</b></p>
+      <p>Mỗi hàng trong bảng được xác định bằng một <tr> thẻ.Mỗi tiêu đề bảng được xác định bằng một<th>thẻ.Mỗi ô / dữ liệu bảng được xác định bằng một <td> thẻ.</p>
+      <p>Theo mặc định, văn bản trong <th> các phần tử được in đậm và căn giữa.</p>
+      <p>Theo mặc định, văn bản trong <td> các phần tử là thông thường và được căn trái.</p>
+      <p><b>Ví dụ:</b></p>
+      <style>
+        table, th, td {
+          border:1px solid black;
+        }
+    </style>  
+      <table style="width:100%">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tuổi</th>
+        </tr> 
+        <tr>
+            <td>Nguyễn</td>
+            <td>Hoàng</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Trần</td>
+            <td>Toản</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Vũ</td>
+            <td>Toàn</td>
+            <td>30</td>
+        </tr>
+       </table>
+       <br>
+       <h1>7.Danh sách</h1>
+       <p><b>a.Danh sách có thứ tự</b></p>
+       <p><b>Ví dụ:</b></p>
+       <ol>
+         <li>Coffee</li>
+         <li>Tea</li>
+         <li>Water</li>
+       </ol>
+       <p><b>b.Danh sách không thứ tự</b></p>
+       <p><b>Ví dụ:</b></p>
+       <ul>
+         <li>Xanh</li>
+         <li>Đỏ</li>
+         <li>Tím</li>
+       </ul>
+       <br>
+       <h1>8.Thuộc tính style</h1>
+       <p><b>Ý nghĩa thẻ:</b></p>
+       <p>Để định dạng một số thuộc tính của các đối tượng trong trang web như màu sắc, kiểu chữ, kích thước...</p>
+       <p><b>a.Màu nền trang</b></p>
+       <p><b>Ví dụ:</b></p>
+       <h1 style="background-color:DodgerBlue;">Hello World</h1>
+       <p><b>b.Màu chữ</b></p>
+       <p><b>Ví dụ:</b></p>
+        <h1 style="color:blue;">Tiêu đề</h1>
+        <p style="color:brown">Đoạn văn</p>
+       <p><b>c.Font chữ</b></p>
+       <p><b>Ví dụ:</b></p>
+         <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Tiêu đề</h1>
+         <p style="font-family: Arial, Helvetica, sans-serif;">Đoạn văn</p>
+</body>
+</html>

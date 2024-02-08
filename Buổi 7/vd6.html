@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bo">
+    </div>
+    <button onclick="themanh();">Thêm ảnh</button>
+    <script>
+        function themanh(){
+            var x=document.createElement('img');
+            x.src='https://khoinguonsangtao.vn/wp-content/uploads/2022/07/avatar-gau-cute.jpg';
+            document.getElementById("bo").appendChild(x);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="p1">nội dung 1</p>
+        <p id="p2">nội dung 2</p>
+        <button onclick="xoa1('p1');">ấn để xoá dòng 1</button>
+    </div>
+    <div id="doan2">
+        <p id="p3">nội dung 3</p>
+        <p id="p4">nội dung 4</p>
+        <button onclick="xoa2('doan2','p4');">ấn để xoá dòng 4</button>
+    </div>
+    <script>
+        function xoa1(x){
+            var x= document.getElementById(x);
+            x.remove();
+        }
+        function xoa2(x,y){
+            var cha= document.getElementById(x);
+            var con=document.getElementById(y);
+            cha.removeChild(con);
+        }
+    </script>
+</body>
+</html>

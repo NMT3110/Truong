@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>tìm dòng nội dung đầu tiên</h2>
+    <p>Chao xìn</p>
+    <p>liệu đây có phải dùng nội dung đầu tiên không</p>
+    <div id="demo"></div>
+    <script>
+        var x=document.getElementsByTagName("p");
+        document.getElementById('demo').innerHTML='nội dung của dòng nội dung đầu tiên là:'+ x[0].innerHTML;
+    </script>
+</body>
+</html>

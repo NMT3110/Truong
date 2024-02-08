@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vd11.css">
+</head>
+<body>
+    <div class="tongthe">
+        <div class="menu">
+            <div class="trai">LOGO</div>
+            <div class="phai">
+                <ul>
+                    <il>Trang chủ</il>
+                    <il>Sản phẩm</il>
+                    <il>Liên hệ</il>
+                </ul>
+            </div>
+        </div>
+        <div class="noidung">
+            <div class="cot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ex optio eum omnis sit tempora facere quia dicta asperiores voluptatum autem, quaerat blanditiis vero temporibus aliquam accusamus officiis? Maxime.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni facere natus dicta amet, commodi adipisci sunt aspernatur quas cum quasi et debitis? Tempora eius praesentium veniam corporis, accusamus eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id quidem praesentium sint nihil facere dicta aperiam sit unde possimus odit culpa temporibus quis ex beatae nostrum tempora perspiciatis. Autem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt velit ut eveniet temporibus aut alias nemo reprehenderit nostrum, ea dicta minus cumque perferendis quasi ratione et excepturi quis dolor neque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat magni animi doloremque quaerat soluta sapiente consequuntur blanditiis quis amet voluptates! Natus similique aliquam voluptas nemo omnis laudantium maiores iste reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam neque distinctio voluptate reiciendis dolorum itaque laudantium dolore incidunt explicabo blanditiis fugit totam eius, obcaecati rerum dolores eligendi? Nam, id.
+            </div>
+            <div class="cot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ex optio eum omnis sit tempora facere quia dicta asperiores voluptatum autem, quaerat blanditiis vero temporibus aliquam accusamus officiis? Maxime.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni facere natus dicta amet, commodi adipisci sunt aspernatur quas cum quasi et debitis? Tempora eius praesentium veniam corporis, accusamus eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id quidem praesentium sint nihil facere dicta aperiam sit unde possimus odit culpa temporibus quis ex beatae nostrum tempora perspiciatis. Autem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt velit ut eveniet temporibus aut alias nemo reprehenderit nostrum, ea dicta minus cumque perferendis quasi ratione et excepturi quis dolor neque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat magni animi doloremque quaerat soluta sapiente consequuntur blanditiis quis amet voluptates! Natus similique aliquam voluptas nemo omnis laudantium maiores iste reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam neque distinctio voluptate reiciendis dolorum itaque laudantium dolore incidunt explicabo blanditiis fugit totam eius, obcaecati rerum dolores eligendi? Nam, id.
+            </div>
+            <div class="cot">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ex optio eum omnis sit tempora facere quia dicta asperiores voluptatum autem, quaerat blanditiis vero temporibus aliquam accusamus officiis? Maxime.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni facere natus dicta amet, commodi adipisci sunt aspernatur quas cum quasi et debitis? Tempora eius praesentium veniam corporis, accusamus eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id quidem praesentium sint nihil facere dicta aperiam sit unde possimus odit culpa temporibus quis ex beatae nostrum tempora perspiciatis. Autem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt velit ut eveniet temporibus aut alias nemo reprehenderit nostrum, ea dicta minus cumque perferendis quasi ratione et excepturi quis dolor neque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat magni animi doloremque quaerat soluta sapiente consequuntur blanditiis quis amet voluptates! Natus similique aliquam voluptas nemo omnis laudantium maiores iste reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam neque distinctio voluptate reiciendis dolorum itaque laudantium dolore incidunt explicabo blanditiis fugit totam eius, obcaecati rerum dolores eligendi? Nam, id.
+            </div>
+            <div class="cot">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ex optio eum omnis sit tempora facere quia dicta asperiores voluptatum autem, quaerat blanditiis vero temporibus aliquam accusamus officiis? Maxime.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni facere natus dicta amet, commodi adipisci sunt aspernatur quas cum quasi et debitis? Tempora eius praesentium veniam corporis, accusamus eveniet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id quidem praesentium sint nihil facere dicta aperiam sit unde possimus odit culpa temporibus quis ex beatae nostrum tempora perspiciatis. Autem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt velit ut eveniet temporibus aut alias nemo reprehenderit nostrum, ea dicta minus cumque perferendis quasi ratione et excepturi quis dolor neque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat magni animi doloremque quaerat soluta sapiente consequuntur blanditiis quis amet voluptates! Natus similique aliquam voluptas nemo omnis laudantium maiores iste reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam neque distinctio voluptate reiciendis dolorum itaque laudantium dolore incidunt explicabo blanditiis fugit totam eius, obcaecati rerum dolores eligendi? Nam, id.
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+    // console.log("đã load");
+    var menutrai=document.querySelector(".trai");
+    var menuphai=document.querySelector(".phai");
+      var trangthai="duoi110";
+    window.addEventListener("scroll", function(){
+        console.log(window.pageYOffset);
+        if(window.pageYOffset>110){
+            if(trangthai=="duoi110"){
+                console.log("ok "); 
+                trangthai="tren110";
+                 menutrai.classList.add("bentrai");
+                menuphai.classList.add("benphai");
+
+            }
+          }
+            else if(window.pageYOffset<=110){
+                if(trangthai="tren110"){
+                menutrai.classList.remove("bentrai");
+                menuphai.classList.remove("benphai");
+                trangthai="duoi110";
+                }
+            
+        }
+
+    })
+})
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.hinh1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+}
+.hinh2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+}
+.hinh3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+}
+.hinh1 p, .hinh2 p, .hinh3 p{
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+.d{
+    color: blue;
+    list-style: square;
+}

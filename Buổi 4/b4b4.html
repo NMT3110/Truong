@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalium</title>
+    <link rel="stylesheet" href="css/b4b4.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menubar">
+        <a href=""><img class="logo" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/06/Kalium-Theme-Icon.png"></a>
+        <img id="menuicon" src="css/menu1.png">
+    </div>
+ 
+
+    <p class="chu">Clear thinking at the wrong moment can stifle creativity</p>
+    
+    <div class="menucon">
+        <ul>
+            <li><a href="" class="menu5">All</a></li>
+            <li><a href="" class="menu4">Branding</a></li>
+            <li><a href="" class="menu4">Digital Art</a></li>
+            <li><a href="" class="menu4">Photography</a></li>
+            <li><a href="" class="menu4">Print</a></li>
+        </ul>
+    </div>
+    <div class="baogom">
+    <div class="anh">
+    <div class="image-block">
+        <img class="layer1" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/05/adestra-c-300x200.jpg">
+        <div class="white"></div>
+        <div class="blackicon"><ion-icon name="heart-circle-outline"></ion-icon></div>
+        <div class="bigtext">ADESTRA</div>
+        <div class="smalltext"><a href="" class="menu3">Branding</a></div>
+    </div>
+    <div class="image-block">
+        <img class="layer1" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/03/cloud-inc-c-300x200.jpg">
+        <div class="white"></div>
+        <div class="blackicon"><ion-icon name="heart-circle-outline"></ion-icon></div>
+        <div class="bigtext">CLOUD INC</div>
+        <div class="smalltext"><a href="" class="menu3">Print</a></div>
+    </div>
+    </div>
+
+    <div class="anh">
+        <div class="image-block2">
+            <img class="layer2" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/desk-concept-c-468x468.jpg">
+            <div class="white2"></div>
+            <div class="blackicon2"><ion-icon name="heart-circle-outline"></ion-icon></div>
+            <div class="bigtext2">DESK CONCEPT</div>
+            <div class="smalltext2"><a href="" class="menu3">Photography</a></div>
+        </div>
+        <div class="image-block3">
+            <img class="layer3" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/capricho-c-300x182.jpg">
+            <div class="white3"></div>
+            <div class="blackicon3"><ion-icon name="heart-circle-outline"></ion-icon></div>
+            <div class="bigtext3">CARICHO</div>
+            <div class="smalltext3"><a href="" class="menu3">Digital Art</a></div>
+        </div>
+        </div>
+
+        <div class="anh">
+            <div class="image-block">
+                <img class="layer1" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/multi-color-c-300x199.jpg">
+                <div class="white"></div>
+                <div class="blackicon"><ion-icon name="heart-circle-outline"></ion-icon></div>
+                <div class="bigtext">MULTI COLOR</div>
+                <div class="smalltext"><a href="" class="menu3">Digital Art</a></div>
+            </div>
+            <div class="image-block">
+                <img class="layer1" src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/ethics-for-design-c-300x200.jpg">
+                <div class="white"></div>
+                <div class="blackicon"><ion-icon name="heart-circle-outline"></ion-icon></div>
+                <div class="bigtext">ETHICS FOR DESIGN</div>
+                <div class="smalltext"><a href="" class="menu3">Print</a></div>
+            </div>
+            </div>
+    </div>
+
+    <div class="menu-box" id="menuBox">
+        <ul >
+            <li><a href="" class="menu2">Home</a></li>
+            <li><a href="" class="menu1">Portfolio</a></li>
+            <li><a href="" class="menu1">Team</a></li>
+            <li><a href="" class="menu1">Services</a></li>
+            <li><a href="" class="menu1">Blog</a></li>
+            <li><a href="" class="menu1">Contact</a></li>
+            <li><a href="" class="menu1">Buy Now</a></li>
+            <li><a href="" class="menu3">Search ...</a></li>
+        </ul>
+    </div>
+    <script>
+        let menuBox = document.getElementById("menuBox");
+        let menuicon = document.getElementById("menuicon");
+
+        menuicon.onclick = function(){
+            menuBox.classList.toggle("open-menu");
+
+            if(menuBox.classList.contains("open-menu")){
+                menuicon.src = "css/close.png";
+            }
+            else{
+                menuicon.src = "css/menu1.png";
+            }
+        }
+    </script> 
+</body>
+</html>

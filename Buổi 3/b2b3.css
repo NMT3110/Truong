@@ -1,0 +1,118 @@
+body{
+    max-width:1000px;
+    margin:0px auto;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    background-color: #2fa1b3;
+    padding:10px;
+    position:relative;
+}
+.hastag:hover{
+    background-color: rgb(198, 217, 217);
+}
+.bantin:hover{
+    background-color: rgb(38, 134, 134);
+}
+.bantin{
+    padding:0px 12px;
+    border-right:2px solid hsla(0,0%,100%,.2);
+    
+}
+a{
+    color:white;
+    align-items: center;
+    font-size: 16px;
+    text-decoration:none ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hastag{
+    display:block;
+    padding: 0 12px;
+    margin: 0 4px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 10px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    text-transform: none;
+    font-weight: 400;
+}
+.icon{
+    position:absolute;
+    border-left: 2px solid hsla(0,0%,100%,.3);
+    border-right: 2px solid hsla(0,0%,100%,.3);
+    padding:0px 5px;
+    right:5px;
+    background-color: rgb(38, 134, 134);
+}
+.icon:hover{
+    background-color: rgb(32, 108, 108);
+}
+.main-content{
+    height:1000px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+}
+.main1{
+    flex-basis: 65%;
+}
+.content{
+    height:450px;
+    overflow:hidden;
+}
+
+.write1{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.write{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.content1{
+    display:flex;
+    margin-left:-10px;
+}
+.content2{
+    width:(30%-20px);
+    margin-left:10px;
+    overflow:hidden;
+}
+img{
+    border-radius: 4px;
+    transition: all 0.3s;
+    display:block;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.write1:hover{
+    color:rgb(11, 178, 178);
+}
+.write:hover{
+    color:rgb(11, 178, 178);
+}
+
+.sidebar{
+    flex-basis: 35%;
+}
+.sb1{
+    display:flex;
+    margin-left: 15px;
+}
+.write2{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align:left;
+    padding:6px 10px;
+}
+hr{
+    width:335px;
+    margin-right: 0px; 
+    margin-top:-10px;
+}
+.write2:hover{
+    color:rgb(11, 178, 178);
+}

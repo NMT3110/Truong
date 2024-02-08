@@ -1,0 +1,289 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+.ino{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: #00000082;
+    position: relative;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+#bar {
+    background-color: #00000082;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    padding: 10px calc((100% - 1000px)/2);
+} 
+#bar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 24px;
+}
+#navbar #logo {
+    height: 70px;
+}
+a.nav:hover {
+    transform: translate(0, -10%);
+}
+#navbar-right {
+    float: right;
+}
+#home{
+    width: 100%;
+    background-color: #858585;
+    position: relative;
+    overflow: hidden;
+}
+#home video{
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.2;
+}
+.hmcontent{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hmtxt{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+}
+.hmtxt h1{
+    margin-top: 50px;
+    font-size: 100px;
+}
+.hmtxt h2{
+    padding:20px;
+    font-size: 28px;
+}
+.hmimg{
+    width: 400px;
+    height: 430px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.hmimg img{
+    width: 100%;
+}
+.hmimg:hover, .abtimg:hover{
+    transform: translate(0, -10%);
+}
+#about{
+    width: 100%;
+    background-color: #363636;
+    position: relative;
+    overflow: hidden;
+}
+.txture{
+    position: absolute;
+    opacity: 0.1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.3);
+    max-height: 100%;
+}
+.abt{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.abtimg{
+    width: 40%;
+    height: 500px;
+    background-color: #d905fa;
+    position: relative;
+    overflow: hidden;
+}
+.abttxt{
+    width: 60%;
+    color: #ede1d2;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 60px;
+}
+#painting{
+    position: relative;
+    overflow: hidden;
+    background-color: #858585;
+}
+h1.title{
+    font-size: 60px;
+    padding: 50px 0;
+}
+.pic{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    min-height: 350px;
+    min-width: 280px;
+    cursor: pointer;
+    margin: 20px;
+}
+.picture{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.picimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+}
+.pictxt{
+    background-color: #000000c6;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+}
+.pictxt {
+    padding: 5px;
+}
+.pictxt h1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.pictxt p{
+    padding: 10px 0px;
+}
+.pic:hover{
+    transform: translate(0, -10%);
+}
+#biography{
+    position: relative;
+    overflow: hidden;
+    background-color: #363636;
+}
+.sup{
+    position: absolute;
+    font-size: 16px;
+    top: -4px;
+    opacity: 0.6;
+}
+#story{
+    position: relative;
+    overflow: hidden;
+    background-color: #858585;
+}
+.wrap{
+    margin: 80px calc((100% - 1000px)/2);
+}
+@media screen  and (max-width: 1080px){
+    .wrap{
+        margin: 80px calc((100% - 90vw)/2);
+    }
+    #navbar{
+        padding: 10px calc((100% - 90vw)/2);
+    }
+    .hmimg, .abtimg{
+        width: 40vw;
+        height: 50vw;
+    }
+    .hmtxt, .abttxt{
+        width: 50vw;
+    }
+    .hmtxt h1{
+        font-size: 96px;
+    }
+    .hmtxt h2{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width: 800px){
+    .wrap{
+        margin: 40px calc((100% - 90vw)/2);
+    }
+    #navbar{
+        display: none;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: column;
+    }
+    #home{
+        padding-top: 20px;
+    }
+    .abtimg{
+        width: 400px;
+        height: 500px;
+        margin: 20px calc((100% - 400px)/2);
+    }
+    .abtimg img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .abttxt{
+        width: 90vw;
+        padding: 0;
+    }
+    .hmtxt h1{
+        font-size: 60px;
+    }
+    .hmtxt h2{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width: 600px){
+    .wrap{
+        margin: 40px calc((100% - 90vw)/2);
+    }
+    #home{
+        padding-top: 20px;
+    }
+    .hmimg{
+        display: none;
+    }
+    .hmtxt{
+        width: 90vw;
+        text-align: center;
+    }
+    .hmtxt h1{
+        font-size: 90px;
+    }
+    .hmtxt h2{
+        font-size: 20px;
+    }
+    
+}

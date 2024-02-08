@@ -1,0 +1,15 @@
+h1 {
+    width: 600px;
+    height: 800px;
+    color: violet;
+    text-align: center;
+}
+
+p {
+    color:brown;
+    font-size: 20px;
+}
+
+body {
+    background-color: aqua;
+}

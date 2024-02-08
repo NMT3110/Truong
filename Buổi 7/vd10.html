@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .fontchu{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .mau{
+        color: rgb(38, 0, 255);
+    }
+    .co{
+        font-size: 14px;
+    }
+</style>
+<body>
+    <h1 class="fontchu" id="td1">Chỉnh chữ</h1>
+    <button onclick="tonho();">Ấn để chỉnh</button>
+    <script>
+        var x=document.getElementById("td1");
+        x.classList.add("mau","co");
+        function tonho(){
+            x.classList.toggle("co");
+        }
+    </script>
+</body>
+</html>
